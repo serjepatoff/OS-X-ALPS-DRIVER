@@ -27,7 +27,7 @@
 	<key>NSPrefPaneIconFile</key>
 	<string>VoodooPS2synapticsPane.tiff</string>
 	<key>NSPrefPaneIconLabel</key>
-	<string>Synaptics Trackpad</string>
+	<string>ALPS</string>
 	<key>NSPrincipalClass</key>
 	<string>VoodooPS2Pref</string>
 	<key>Source Code</key>

@@ -4,13 +4,21 @@
 ### How to Install (quick way, for Clover-injected kext on Dell):
 
 Make target All in Release;
+
 Product->Archive->Export...->Built Products
+
 Go to output folder created, find VoodooPS2Trackpad.kext
+
 Copy it as sub-kext to working VoodooPS2Controller.kext in EFI/CLOVER/kexts/Other/VoodooPS2Controller.kext/Contents/PlugIns
+
 Find VoodooPS2synapticsPane.prefPane and copy to ~/Library/PreferencePanes
+
 Copy VoodooPS2Daemon and synapticsconfigload to /usr/bin
+
 Copy org.voodoo.driver.synapticsconfigload.plist and org.rehabman.voodoo.driver.Daemon.plist to /Library/LaunchDaemons/
+
 Restart Settings
+
 
 TODO: change min/max values in prefPane to comfortable ones
 
